@@ -63,7 +63,7 @@ class adultUsers implements LibraryUser {
             System.out.println("Book Issued successfully, please return the book \n" +
                     "within 7 days");
         } else {
-            System.out.println("Oops, you are allowed to take only kids books");
+            System.out.println("Oops, you are allowed to take only Adult books");
         }
     }
 }
